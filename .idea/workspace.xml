@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91f1fc94-5acc-4e16-8efd-225b846b2667" name="Default Changelist" comment="klj">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$courseentity.coverage" NAME="courseentity Coverage Results" MODIFIED="1544034476012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvprocess" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$Local_Binary_Pattern.coverage" NAME="Local_Binary_Pattern Coverage Results" MODIFIED="1553069147596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$_2_DrawnAndTransfer.coverage" NAME="_2_DrawnAndTransfer Coverage Results" MODIFIED="1552443796502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$chapter_sectiontocourses.coverage" NAME="chapter_sectiontocourses Coverage Results" MODIFIED="1544101641455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvprocess" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$videoentity.coverage" NAME="videoentity Coverage Results" MODIFIED="1544058218998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvprocess" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$jijinSpider.coverage" NAME="jijinSpider Coverage Results" MODIFIED="1548295348144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$manage.coverage" NAME="manage Coverage Results" MODIFIED="1548301610614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1551148422716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$partEntity.coverage" NAME="partEntity Coverage Results" MODIFIED="1544034242497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvprocess" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$knowledgetoname.coverage" NAME="knowledgetoname Coverage Results" MODIFIED="1544104754109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvprocess" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$tstcolor.coverage" NAME="tstcolor Coverage Results" MODIFIED="1552458897969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$_1_helloword.coverage" NAME="_1_helloword Coverage Results" MODIFIED="1551150390560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$sectiontochapter.coverage" NAME="sectiontochapter Coverage Results" MODIFIED="1548148408566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvprocess" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$Test__PKUKnowledgeBase.coverage" NAME="Test: PKUKnowledgeBase Coverage Results" MODIFIED="1548301797591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$knowledgevideoentity.coverage" NAME="knowledgevideoentity Coverage Results" MODIFIED="1544062360188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvprocess" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$Test__templates.coverage" NAME="Test: templates Coverage Results" MODIFIED="1548301789475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$whiteword.coverage" NAME="whiteword Coverage Results" MODIFIED="1553060144164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opencv" />
+    <SUITE FILE_PATH="coverage/PKUKnowledgeBase$chapterentity.coverage" NAME="chapterentity Coverage Results" MODIFIED="1548143531936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvprocess" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1623908857">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="38" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="3" />
+          <entry key="project.open.time.29" value="3" />
+          <entry key="project.open.time.30" value="3" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="2" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.34" value="3" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="46" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="4" />
+          <entry key="csv" value="153" />
+          <entry key="html" value="13" />
+          <entry key="jpg" value="4" />
+          <entry key="js" value="1" />
+          <entry key="py" value="51" />
+          <entry key="search_entity" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="CSV" value="123" />
+          <entry key="HTML" value="13" />
+          <entry key="Image" value="4" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="Python" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Django Console" value="13" />
+          <entry key="css" value="135" />
+          <entry key="csv" value="182" />
+          <entry key="dummy" value="15" />
+          <entry key="html" value="836" />
+          <entry key="py" value="12189" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="135" />
+          <entry key="CSV" value="182" />
+          <entry key="HTML" value="836" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="12202" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PKUKnowledgeBase" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Static/css/buju.css" />
+        <option value="$PROJECT_DIR$/PKUKnowledgeBase/settings.py" />
+        <option value="$PROJECT_DIR$/static/css/buju.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/PKUKnowledgeBase/recogentity.py" />
+        <option value="$PROJECT_DIR$/templates/Index.html" />
+        <option value="$PROJECT_DIR$/csvprocess/graphcsv/partentity.csv" />
+        <option value="$PROJECT_DIR$/csvprocess/partEntity.py" />
+        <option value="$PROJECT_DIR$/csvprocess/graphcsv/lesson.csv" />
+        <option value="$PROJECT_DIR$/csvprocess/videoentity.py" />
+        <option value="$PROJECT_DIR$/csvprocess/graphcsv/videoentity.csv" />
+        <option value="$PROJECT_DIR$/csvprocess/courseentity.py" />
+        <option value="$PROJECT_DIR$/csvprocess/knowledgeentity.py" />
+        <option value="$PROJECT_DIR$/csvprocess/knowledgevideoentity.py" />
+        <option value="$PROJECT_DIR$/csvprocess/graphcsv/coursetopartentity.csv" />
+        <option value="$PROJECT_DIR$/csvprocess/graphcsv/knowledgetoname.csv" />
+        <option value="$PROJECT_DIR$/csvprocess/graphcsv/chapter_sectiontocourses.csv" />
+        <option value="$PROJECT_DIR$/csvprocess/chapter_sectiontocourses.py" />
+        <option value="$PROJECT_DIR$/csvprocess/knowledgetoname.py" />
+        <option value="$PROJECT_DIR$/PKUKnowledgeBase/urls.py" />
+        <option value="$PROJECT_DIR$/PKUKnowledgeBase/search_view.py" />
+        <option value="$PROJECT_DIR$/Model/neo4j_class.py" />
+        <option value="$PROJECT_DIR$/csvprocess/bigdata/produce.py" />
+        <option value="$PROJECT_DIR$/csvprocess/chapter2.py" />
+        <option value="$PROJECT_DIR$/csvprocess/filecsv/section.csv" />
+        <option value="$PROJECT_DIR$/csvprocess/chapterentity.py" />
+        <option value="$PROJECT_DIR$/csvprocess/graphcsv/PKUEntity.csv" />
+        <option value="$PROJECT_DIR$/csvprocess/sectiontochapter.py" />
+        <option value="$PROJECT_DIR$/Spider/xxx.html" />
+        <option value="$PROJECT_DIR$/Spider/csvfile/jijin.csv" />
+        <option value="$PROJECT_DIR$/Spider/csvfile/error.csv" />
+        <option value="$PROJECT_DIR$/Spider/jijinSpider.py" />
+        <option value="$PROJECT_DIR$/opencv/_1_helloword.py" />
+        <option value="$PROJECT_DIR$/opencv/_2_DrawnAndTransfer.py" />
+        <option value="$PROJECT_DIR$/opencv/tstface.py" />
+        <option value="$USER_HOME$/Desktop/color_tst.py" />
+        <option value="$PROJECT_DIR$/opencv/whiteword.py" />
+        <option value="$PROJECT_DIR$/opencv/tstcolor.py" />
+        <option value="$PROJECT_DIR$/opencv/Local_Binary_Pattern.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="315" />
+    <option name="y" value="-30" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PKUKnowledgeBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PKUKnowledgeBase" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software\Python3.5.3\VenProjectSet\KnowledgeBase\PKUKnowledgeBase\opencv\photo" />
+      <recent name="D:\software\Python3.5.3\VenProjectSet\KnowledgeBase\PKUKnowledgeBase\opencv" />
+      <recent name="D:\software\Python3.5.3\VenProjectSet\KnowledgeBase\PKUKnowledgeBase\csvprocess\graphcsv" />
+      <recent name="D:\software\Python3.5.3\VenProjectSet\KnowledgeBase\PKUKnowledgeBase\csvprocess\bigdata\data" />
+      <recent name="D:\software\Python3.5.3\VenProjectSet\KnowledgeBase\PKUKnowledgeBase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\software\Python3.5.3\VenProjectSet\KnowledgeBase\PKUKnowledgeBase\opencv\photo" />
+      <recent name="D:\software\Python3.5.3\VenProjectSet\KnowledgeBase\PKUKnowledgeBase\csvprocess\filecsv" />
+      <recent name="D:\software\Python3.5.3\VenProjectSet\KnowledgeBase\PKUKnowledgeBase\templates" />
+      <recent name="D:\software\Python3.5.3\VenProjectSet\KnowledgeBase\PKUKnowledgeBase\static\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Local_Binary_Pattern">
+    <configuration name="Local_Binary_Pattern" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PKUKnowledgeBase" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/Local_Binary_Pattern.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_1_helloword" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PKUKnowledgeBase" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/_1_helloword.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_2_DrawnAndTransfer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PKUKnowledgeBase" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/_2_DrawnAndTransfer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tstcolor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PKUKnowledgeBase" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/tstcolor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="whiteword" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PKUKnowledgeBase" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv/whiteword.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PKUKnowledgeBase" type="Python.DjangoServer" factoryName="Django server" editBeforeRun="true" show_console_on_std_err="true" show_console_on_std_out="true">
+      <module name="PKUKnowledgeBase" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="PKUKnowledgeBase.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\software\Python3.5.3\VenProjectSet\KnowledgeBase\PKUKnowledgeBase\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="true" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.PKUKnowledgeBase" />
+      <item itemvalue="Python._1_helloword" />
+      <item itemvalue="Python._2_DrawnAndTransfer" />
+      <item itemvalue="Python.tstcolor" />
+      <item itemvalue="Python.whiteword" />
+      <item itemvalue="Python.Local_Binary_Pattern" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Local_Binary_Pattern" />
+        <item itemvalue="Python.whiteword" />
+        <item itemvalue="Python.tstcolor" />
+        <item itemvalue="Python._2_DrawnAndTransfer" />
+        <item itemvalue="Python._1_helloword" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91f1fc94-5acc-4e16-8efd-225b846b2667" name="Default Changelist" comment="" />
+      <created>1542162320908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542162320908</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__PKUKnowledgeBase - 2018.12.06 at 22h 03m 12s.xml">
+      <configuration name="Test: PKUKnowledgeBase" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.01.24 at 11h 43m 47s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.01.24 at 11h 44m 44s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.01.24 at 11h 45m 01s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__PKUKnowledgeBase - 2019.01.24 at 11h 45m 33s.xml">
+      <configuration name="Test: PKUKnowledgeBase" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.01.24 at 11h 49m 25s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates - 2019.01.24 at 11h 49m 51s.xml">
+      <configuration name="Test: templates" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__PKUKnowledgeBase - 2019.01.24 at 11h 49m 59s.xml">
+      <configuration name="Test: PKUKnowledgeBase" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.01.24 at 13h 32m 07s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.02.26 at 10h 34m 15s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974227" visible="true" weight="0.17426273" />
+      <window_info id="Structure" order="1" sideWeight="0.5025773" side_tool="true" weight="0.07104558" />
+      <window_info id="Favorites" order="2" sideWeight="0.5025773" side_tool="true" weight="0.07104558" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865952" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81568366" weight="0.25531915" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.86260056" weight="0.30212766" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4872654" weight="0.32765958" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.18431635" side_tool="true" visible="true" weight="0.25531915" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.48324397" weight="0.32765958" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.48324397" weight="0.1319149" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.49932975" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.83176947" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PKUKnowledgeBase/recogentity.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint suspend="NONE" type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Model/neo4j_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2481">
+          <caret line="259" column="36" lean-forward="true" selection-start-line="252" selection-start-column="7" selection-end-line="259" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PKUKnowledgeBase/search_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/chapter_sectiontocourses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/entity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/daily_time.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/recommend_video.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/knowledge_lesson_map.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/subchapter_index.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/predictscore_index.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/time_rank.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../untitled1/bigdata/produce.py" />
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/time_rank_index.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/graphcsv/courseentity.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/graphcsv/coursetopartentity.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/graphcsv/chapter_sectiontocourses.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/behavior.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="323">
+          <caret line="17" column="37" selection-start-line="11" selection-start-column="17" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/lesson.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/recommend_video_index.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/chapter_index.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/course.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/student.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/graphcsv/chapterentity.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/teacher.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/graphcsv/chapter2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/graphcsv/section2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/knowledgetoname.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/graphcsv/knowledgetoname.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/graphcsv/knowledgevideoentity.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/graphcsv/PKUEntityRelation.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/nationalfund.py" />
+    <entry file="file://$PROJECT_DIR$/csvprocess/chapterentity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/jijinSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="69" column="79" lean-forward="true" selection-start-line="69" selection-start-column="79" selection-end-line="69" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/sectiontochapter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/hw1.py" />
+    <entry file="file://$PROJECT_DIR$/csvprocess/chapter2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/filecsv/section.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="2641">
+          <caret line="139" column="69" selection-start-line="139" selection-start-column="69" selection-end-line="139" selection-end-column="69" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/csvfile/error.csv">
+      <provider editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/courseentity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/csvfile/jijin.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvprocess/partEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/xxx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6232">
+          <caret line="328" column="75" selection-start-line="328" selection-start-column="75" selection-end-line="328" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/_1_helloword.py" />
+    <entry file="file://$USER_HOME$/Desktop/color_tst.py" />
+    <entry file="file://$PROJECT_DIR$/opencv/photo/deep_autumn.jpg" />
+    <entry file="file://$PROJECT_DIR$/opencv/happy.jpg" />
+    <entry file="file://$PROJECT_DIR$/opencv/spring.jpg" />
+    <entry file="file://$PROJECT_DIR$/opencv/whiteword.py" />
+    <entry file="file://$PROJECT_DIR$/opencv/_2_DrawnAndTransfer.py" />
+    <entry file="file://$PROJECT_DIR$/opencv/tstcolor.py" />
+    <entry file="file://$PROJECT_DIR$/opencv/Local_Binary_Pattern.py" />
+  </component>
+</project>

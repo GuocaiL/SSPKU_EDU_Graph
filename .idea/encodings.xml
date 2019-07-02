@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Spider/csvfile/jijin.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/csvprocess/graphcsv/PKUEntityRelation.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/csvprocess/graphcsv/chapter2.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/csvprocess/graphcsv/chapter_sectiontocourses.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/csvprocess/graphcsv/chapterentity.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/csvprocess/graphcsv/courseentity.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/csvprocess/graphcsv/knowledgetoname.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/csvprocess/graphcsv/knowledgevideoentity.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/csvprocess/graphcsv/partentity.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/csvprocess/graphcsv/section2.csv" charset="GBK" />
+  </component>
+</project>

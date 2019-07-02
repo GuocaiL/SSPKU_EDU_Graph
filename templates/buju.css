@@ -1,0 +1,36 @@
+html,body{
+            background-color: #EEEEEE;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+header {
+    background-color:#1A2631;
+    color:white;
+    text-align:center;
+    height: 5%;
+    padding: 5px;
+}
+nav {
+    line-height:30px;
+    background-color:#394A58;
+    color: #EEEEEE;
+    float:left;
+    padding:1px;
+    height: 100%;
+    text-align: center;
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;
+    height: 89%;
+}
+footer {
+    background-color:#1A2631;
+    color:white;
+    clear:both;
+    height: 3%;
+    text-align:center;
+    padding:0px;
+}
